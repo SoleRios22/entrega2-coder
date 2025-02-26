@@ -1,0 +1,104 @@
+/*.overlock-regular {
+    font-family: "Overlock", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .overlock-bold {
+    font-family: "Overlock", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .overlock-black {
+    font-family: "Overlock", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .overlock-regular-italic {
+    font-family: "Overlock", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .overlock-bold-italic {
+    font-family: "Overlock", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .overlock-black-italic {
+    font-family: "Overlock", serif;
+    font-weight: 900;
+    font-style: italic;
+  }*/
+  
+/*Estilos del header*/
+  header{
+    font-family: "Overlock", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1{
+    font-size: 1200;
+    font-style: italic;
+    text-align: center;
+}
+
+/*Estilos del Main*/
+main{
+    font-family: "Overlock", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+}
+
+
+
+
+.p__principal{
+    padding: 20px
+}
+
+.menu__principal{
+    background-color: aquamarine;
+}
+
+/*Estilos del footer*/
+footer{
+    font-family: "Overlock", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.contenedor{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 50px;
+    grid-template-areas:
+        "contacto redes"
+        "derecho derecho";
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.contacto {
+    grid-area: contacto;
+    
+    margin: 20px
+
+}
+
+.redes {
+    grid-area: redes;
+    text-align: end;
+    
+    margin:20px;
+}
+
+.derecho {
+    grid-area: derecho;
+    text-align: center;
+}
