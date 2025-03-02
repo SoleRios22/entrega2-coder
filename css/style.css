@@ -35,10 +35,15 @@ main{
 footer{
     font-family: "Overlock", serif;
     font-weight: 700;
+    font-size: small;
     font-style: normal;
-}
-.contenedor{
     background-color: aquamarine;
+    text-align: center;
+}
+
+@media (min-width: 1024px){
+.contenedor{
+  
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 50px;
@@ -51,7 +56,7 @@ footer{
 
 .contacto {
     grid-area: contacto;
-    
+    text-align: start;
     margin: 20px
 
 }
@@ -66,4 +71,6 @@ footer{
 .derecho {
     grid-area: derecho;
     text-align: center;
+}
+
 }
