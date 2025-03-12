@@ -53,7 +53,30 @@ main{
     border:variables.$primary-color;
 }
 }
+.card-title{
+    @include font.font-format(variables.$fonts-primary, 1200, italic, variables.$primary-color, center,22px);
 }
+.card-text{
+    @include font.font-format(variables.$fonts-primary, 1200, normal, black, justify,18px);
+}
+
+h3{
+    @include font.font-format(variables.$fonts-primary, 1400, italic, variables.$primary-color, center,24px);
+    padding: 20px;
+}
+p{ @include font.font-format(variables.$fonts-primary, 1200, italic, black, justify,18px);}
+}
+.container-anima{ 
+    padding:30px;
+    align-items: center;
+    #hermanos {
+    position: absolute;
+    transition: 0.5s;
+}
+}
+ #hermanos:hover{
+    opacity:0;
+ }
 
 
 

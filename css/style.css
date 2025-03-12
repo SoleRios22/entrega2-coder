@@ -55,6 +55,52 @@ main .list-group .active {
   color: black;
   border: green;
 }
+main .card-title {
+  font-family: "Overlock", serif;
+  font-weight: 1200;
+  font-style: italic;
+  color: green;
+  text-align: center;
+  font-size: 22px;
+}
+main .card-text {
+  font-family: "Overlock", serif;
+  font-weight: 1200;
+  font-style: normal;
+  color: black;
+  text-align: justify;
+  font-size: 18px;
+}
+main h3 {
+  font-family: "Overlock", serif;
+  font-weight: 1400;
+  font-style: italic;
+  color: green;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+main p {
+  font-family: "Overlock", serif;
+  font-weight: 1200;
+  font-style: italic;
+  color: black;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.container-anima {
+  padding: 30px;
+  align-items: center;
+}
+.container-anima #hermanos {
+  position: absolute;
+  transition: 0.5s;
+}
+
+#hermanos:hover {
+  opacity: 0;
+}
 
 footer {
   padding: 20px;
