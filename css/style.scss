@@ -1,10 +1,13 @@
 
-@use './styles/_variables';
-@use './styles/_font';
+/*@use './styles/_variables';
+@use './styles/_font';*/
+@use './styles/_footer';
+@use './styles/_header';
+@use './styles/_main';
 
 
 
-
+/*
 header{
     h1{
         @include font.font-format(variables.$fonts-primary, 1200, italic, variables.$primary-color, center, xx-large);
@@ -65,6 +68,7 @@ h3{
     @include font.font-format(variables.$fonts-primary, 1400, italic, variables.$primary-color, center,24px);
     padding: 20px;
 }
+
 p{ @include font.font-format(variables.$fonts-primary, 1200, italic, black, left,18px);}
 }
 
@@ -146,3 +150,4 @@ footer{
         }
 }
 
+*/
